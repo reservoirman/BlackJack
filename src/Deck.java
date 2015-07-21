@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Stack;
 
@@ -41,6 +40,7 @@ public class Deck {
         Card first = _deck.pop();
         Card second = _deck.pop();
         first.faceUp = true;
+        second.faceUp = false;
 
         Hand h = new Hand();
         h.addCard(first);

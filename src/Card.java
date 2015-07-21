@@ -96,7 +96,7 @@ public class Card {
                 break;
         }
 
-        return rank + " of " + suit;
+        return faceUp ? rank + " of " + suit : "face-down card";
 
     }
     private int _value;

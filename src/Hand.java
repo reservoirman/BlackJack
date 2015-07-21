@@ -54,4 +54,12 @@ public class Hand {
         }
     }
 
+    void RevealHand()
+    {
+        for (Card c: _hand)
+        {
+            c.faceUp = true;
+        }
+    }
+
 }
